@@ -14,5 +14,5 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(cheese)
-  cheese.find{|cheese| cheese.is_a?(cheese)}
+  cheese.find{|cheese| cheese.is_a?(String)}
 end
