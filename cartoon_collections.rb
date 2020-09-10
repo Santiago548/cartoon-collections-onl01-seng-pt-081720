@@ -19,6 +19,4 @@ def find_the_cheese(cheese_maybe)
   cheese_maybe.find do |maybe|
     cheeses.include?(maybe)
   end
-  end
-
 end
