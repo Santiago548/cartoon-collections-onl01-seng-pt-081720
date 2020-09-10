@@ -12,3 +12,7 @@ end
 def long_planeteer_calls(planeteer_calls)
     planeteer_calls.any? { |call| call.length > 4 }
 end
+
+def find_the_cheese(cheese)
+  cheese.find? {|cheese| cheese.is_a?(cheese)}
+end
