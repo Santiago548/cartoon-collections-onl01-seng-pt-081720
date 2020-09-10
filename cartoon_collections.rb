@@ -3,3 +3,7 @@ def roll_call_dwarves(dwarves)
     puts "#{dwarf} #{index}."
   end
 end
+
+def summon_captain_planet(array)
+  
+end
