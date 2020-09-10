@@ -1,5 +1,5 @@
-dwarves = ["coolio", "ron", "mike", "devin", "Dopey", "Grumpy", "Bashful"]
 
+dwarves = ["coolio", "griff", "grumpy", "dopey", "sleepy", "doc", "fam"]
 def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each_with_index do |name, index|
     puts " #{index +1}. #{name}"
@@ -31,6 +31,7 @@ def find_the_cheese(cheese_maybe)# code an argument here
   cheese_maybe.find do |could_be_chesse|
     cheese_types.include? (could_be_chesse)
   end
+    cheese_types.include(could_be_chesse)
 end
 
 find_the_cheese(cheese_maybe)
